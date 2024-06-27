@@ -1,5 +1,4 @@
-package intro
-fun main(){
-    val name="Kotlin"
-    println("Hello $name!")
+fun main(args:Array<String>){
+    val name=if(args.size>0) args[0] else "Null"
+    println("Hello,$name!!")
 }
