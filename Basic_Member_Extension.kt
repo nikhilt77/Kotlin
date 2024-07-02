@@ -21,7 +21,7 @@ fun main() {
     println(a.foo(2))
     println(a.foo())
     println(a.displayInfo())
-    a.setInfo("Alice", 25)
+    a.setInfo("Abc", 25)
     println(a.displayInfo())
     println(a.greet())
 }
